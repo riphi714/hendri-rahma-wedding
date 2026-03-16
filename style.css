@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  line-height:1.6;
+}
+
+.container{
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  text-align:center;
+}
+
+/* HERO */
+
+.hero{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url('bg.jpg');
+  background-size:cover;
+  color:white;
+}
+
+.hero h1{
+  font-size:3rem;
+  margin:10px 0;
+}
+
+.hero button{
+  margin-top:20px;
+  padding:12px 25px;
+  border:none;
+  background:#d4a373;
+  color:white;
+  font-size:16px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+/* COUPLE */
+
+.couple{
+  padding:60px 0;
+}
+
+.couple .container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.person{
+  width:40%;
+}
+
+.heart{
+  font-size:30px;
+}
+
+/* EVENT */
+
+.event{
+  background:#f5f5f5;
+  padding:60px 0;
+}
+
+/* FOOTER */
+
+footer{
+  padding:20px;
+  background:#222;
+  color:white;
+  text-align:center;
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+  .hero h1{
+    font-size:2rem;
+  }
+
+  .couple .container{
+    flex-direction:column;
+  }
+
+  .person{
+    width:100%;
+    margin-bottom:20px;
+  }
+
+  .heart{
+    margin:10px 0;
+  }
+
+}
