@@ -63,6 +63,20 @@ img{
   height:auto;
 }
 
+/* PRAY */
+.pray{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-image: url("images/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-size:cover;
+  color:black;
+}
+
 /* FOOTER */
 
 footer{
