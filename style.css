@@ -47,6 +47,19 @@ h2{
   font-family: 'Anonymous Pro';
 }
 
+.muncul-bawah{
+  opacity:0;
+  transform:translateY(50px);
+  animation:muncul 1s ease forwards;
+}
+
+@keyframes muncul{
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
 /* PREWEDDING */
 .prewedding{
   height:65vh;
@@ -133,6 +146,26 @@ img.item-spiral{
 img{
   width:100%;
   height:auto;
+}
+
+.goyang{
+  animation:goyang 2s infinite;
+}
+
+@keyframes goyang{
+  0%{transform:rotate(-3deg);}
+  50%{transform:rotate(3deg);}
+  100%{transform:rotate(-3deg);}
+}
+
+.pulse{
+  animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+  0%{transform:scale(1);}
+  50%{transform:scale(1.1);}
+  100%{transform:scale(1);}
 }
 
 /* PRAY */
