@@ -105,6 +105,21 @@ img{
   color:black;
 }
 
+
+/* COVER-END */
+.cover-end{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-image: url("images/Background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-size:cover;
+  color:black;
+}
+
 /* FOOTER */
 
 footer{
