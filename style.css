@@ -44,9 +44,8 @@ h2{
   font-family: 'Anonymous Pro';
 }
 
-/* COUPLE */
-
-.couple{
+/* PREWEDDING */
+.prewedding{
   height:100vh;
   display:flex;
   align-items:center;
@@ -59,25 +58,9 @@ h2{
   color:black;
 }
 
-.couple .container{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-
-.person{
-  width:40%;
-}
-
-.heart{
-  font-size:30px;
-}
-
-/* EVENT */
-
-.event{
-  background:#f5f5f5;
-  padding:60px 0;
+img{
+  width:100%;
+  height:auto;
 }
 
 /* FOOTER */
