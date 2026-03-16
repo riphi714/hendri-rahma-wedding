@@ -94,15 +94,10 @@ img{
 /* SAWER */
 .sawer{
   height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background-image: url("images/sawer.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
+  width:100%;
+  background-image:url("images/sawer.png");
   background-size:cover;
-  color:black;
+  background-position:center;
 }
 
 
