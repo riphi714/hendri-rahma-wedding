@@ -22,7 +22,7 @@
 /* COVER */
 
 .cover{
-  height:60vh;
+  height:70vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -62,7 +62,7 @@ h2{
 
 /* PREWEDDING */
 .prewedding{
-  height:65vh;
+  height:70vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -184,7 +184,7 @@ img{
 
 /* EVENT */
 .event{
-  height:65vh;
+  height:70vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -198,7 +198,7 @@ img{
 
 /* SAWER */
 .sawer{
-  height:65vh;
+  height:70vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -213,7 +213,7 @@ img{
 
 /* COVER-END */
 .cover-end{
-  height:60vh;
+  height:70vh;
   display:flex;
   align-items:center;
   justify-content:center;
