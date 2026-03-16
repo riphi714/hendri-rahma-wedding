@@ -8,6 +8,10 @@
 </head>
 <body>
   
+<audio autoplay loop muted id="music">
+  <source src="music/lagu.mp3" type="audio/mpeg">
+</audio>
+
   <section class="cover">
     <div class="container">
       <h1>Hendri & Rahma</h1>
@@ -52,5 +56,12 @@
   <footer>
     <p>© 2026 Wedding Hendri & Rahma</p>
   </footer>
+
+  <script>
+document.addEventListener("click", function(){
+  document.getElementById("music").muted = false;
+});
+</script>
+
 </body>
 </html>
