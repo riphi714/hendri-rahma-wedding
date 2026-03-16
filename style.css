@@ -10,10 +10,17 @@ body{
 }
 
 .container{
-  width:90%;
+  width:100%;
   max-width:1000px;
   margin:auto;
   text-align:center;
+}
+
+.container.foto{
+  width:80%;
+  max-width:800px;
+  margin:auto;
+  position: relative;
 }
 
 /* COVER */
@@ -58,6 +65,75 @@ h2{
   color:black;
 }
 
+.foto{
+  border-radius:5%;
+  box-shadow:15px 15px 40px rgba(0,0,0,0.2);
+}
+
+img.item-mahkota{
+  position: absolute;
+  left:74%;
+  width:23%;
+  bottom: 85%;
+  height:auto;
+}
+
+img.item-love{
+  position: absolute;
+  right: 47%;
+  width:60%;
+  bottom: 76%;
+  height:auto;
+} 
+
+img.item-bintang{
+  position: absolute;
+  left:59%;
+  width:50%;
+  bottom: 52%;
+  height:auto;
+} 
+
+img.item-kacamata{
+  position: absolute;
+  right:70%;
+  width:30%;
+  bottom: 58%;
+  height:auto;
+}
+
+img.item-bunga{
+  position: absolute;
+  left:67%;
+  width:27%;
+  bottom: 38%;
+  height:auto;
+}
+
+img.item-spark{
+  position: absolute;
+  right:72%;
+  width:37%;
+  bottom: 32%;
+  height:auto;
+}
+
+img.item-scratch{
+  position: absolute;
+  left:68%;
+  width:35%;
+  bottom: 18%;
+  height:auto;
+}
+
+img.item-spiral{
+  position: absolute;
+  right:70%;
+  width:35%;
+  bottom: 20%;
+  height:auto;
+}
+
 img{
   width:100%;
   height:auto;
@@ -89,6 +165,9 @@ img{
   background-repeat: repeat;
   background-size:cover;
   color:black;
+}
+
+.bunga{
 }
 
 /* SAWER */
